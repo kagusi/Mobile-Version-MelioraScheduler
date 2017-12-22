@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.rochester.meliorascheduler.Home.HomeFragment">
+
+    <TextView
+        android:id="@+id/home_NoUpcomingAppointmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/Home_no_upcoming_appointment" />
+
+    <LinearLayout
+        android:id="@+id/home_upcomingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/home_UpcomingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:typeface="sans"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/upcoming_appointment_s"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/home_UpcomingAppointmentRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="55dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/home_bookAppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_c"
+        android:textStyle="bold"
+        android:text="@string/nav_book_appointment"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.rochester.meliorascheduler.Appointment.BookAppointment.SelectTimeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/selectTime_ProfNameDisplayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:typeface="serif"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/selectTime_TimeDisplayRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectTime_ProfNameDisplayTextView"
+        android:padding="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/selectTime_backeButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_c"
+            android:text="@string/back"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/selectTime_continueButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_c"
+            android:text="@string/book_continue"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

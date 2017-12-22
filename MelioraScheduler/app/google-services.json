@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509296316051",
+    "firebase_url": "https://meliorascheduler.firebaseio.com",
+    "project_id": "meliorascheduler",
+    "storage_bucket": "meliorascheduler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509296316051:android:241b5b19ae6b6156",
+        "android_client_info": {
+          "package_name": "edu.rochester.meliorascheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509296316051-bnt1l9if3lffv8gbed6fflan9c8526qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.rochester.meliorascheduler",
+            "certificate_hash": "3bdcac0ce65ee13d81b6e2b8190c0b3072dda502"
+          }
+        },
+        {
+          "client_id": "509296316051-05683etmrgkdt77g7itndhukgiqndofg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATav2LPOv4WwohzbzjjQJeZkHph6h87CY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509296316051-05683etmrgkdt77g7itndhukgiqndofg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

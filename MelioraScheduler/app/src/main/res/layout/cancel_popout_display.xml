@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cancel_reasonTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reason_for_cancelation"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:labelFor="@+id/cancel_ReasonEdiText"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/cancel_ReasonEdiText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/cancel_reasonTextView"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_field_background"/>
+
+    <Button
+        android:id="@+id/cancel_SubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_c"
+        android:text="@string/cancel_appointment"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:textSize="18sp"
+       android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
